@@ -9,7 +9,7 @@ category: game dev
 
 **[🌀 Play the game on itch.io](https://alvarogi.itch.io/nadia-on-the-line)**
 
-* **Theme:** "Loop" (GMTK Game Jam 2025)
+* **Theme:** "Loop" (GMTK Game Jam, August 2025)
 * **Genre:** Arcade / Action.
 * Fast-paced, 60-second rounds.
 * Engaging power-up system.

@@ -3,7 +3,7 @@ layout: page
 title: Bring Me a Star
 description: An unexpected space expedition...
 img: assets/img/game-bring-me-a-star.png # Upload a square screenshot of your game to the assets/img folder and put the name here
-importance: 1 # Change to 2, 3, etc. to order your games
+importance: 3 # Change to 2, 3, etc. to order your games
 category: game dev # IMPORTANT: Using this exact category on all games will group them together in a "Game Dev" tab!
 ---
 
