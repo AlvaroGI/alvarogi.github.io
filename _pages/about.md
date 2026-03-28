@@ -20,9 +20,9 @@ social: true # Keep this true to show your email/LinkedIn/GitHub icons at the bo
 
 Hey! 
 
-I'm Álvaro, a researcher and developer specializing in Computer Graphics. Currently, I am based at DisneyResearch|Studios, where I focus on AI for 3D animation.
+I'm Álvaro, a researcher and developer specializing in Computer Graphics. Currently, I am based at DisneyResearch\|Studios, where I focus on AI for 3D animation.
 
 Prior to this, I completed my PhD in Computer Science at TU Delft, following a background in Physics and Engineering from MIT (USA) and UPC (Spain).
 Feel free to explore my list of [publications](/publications/) or my Google Scholar profile.
 
-I am also a (amateur) game designer. You can find and play some of my projects [here](/projects/).
+I am also an (amateur) game designer. You can find and play some of my projects [here](/projects/).
