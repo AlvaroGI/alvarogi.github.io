@@ -5,7 +5,6 @@ permalink: /game-dev/
 nav: true
 nav_order: 3
 horizontal: false
-display_categories: [game dev]
 ---
 
 <div class="projects">
