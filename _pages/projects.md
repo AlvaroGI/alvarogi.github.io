@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Game Dev
-permalink: /projects/
+permalink: /game-dev/
 nav: false
 nav_order: 3
 display_categories: [work, fun]

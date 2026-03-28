@@ -25,4 +25,4 @@ I'm Álvaro, a researcher and developer specializing in Computer Graphics. Curre
 Prior to this, I completed my PhD in Computer Science at TU Delft, following a background in Physics and Engineering from MIT (USA) and UPC (Spain).
 Feel free to explore my list of [publications](/publications/) or my Google Scholar profile.
 
-I am also an (amateur) game designer. You can find and play some of my projects [here](/projects/).
+I am also an (amateur) game designer. You can find my latest projects [here](/game-dev/).
