@@ -38,30 +38,22 @@ social: true # Keep this true to show your email/LinkedIn/GitHub icons at the bo
   document.getElementById("greeting").innerHTML = greeting;
 </script>
 
-<p style="text-align: justify;">
 I'm Álvaro, a researcher and developer specializing in Computer Graphics. Currently, you can find me at **DisneyResearch\|Studios**, where I work on machine learning for 3D animation.
-</p>
+{: style="text-align: justify;" }
 
-<p style="text-align: justify;">
 Before joining Disney, I earned my **PhD in Computer Science** at TU Delft (Netherlands), following a background in Physics and Engineering from MIT (USA) and UPC (Spain).
-</p>
+{: style="text-align: justify;" }
 
-<p style="text-align: justify;">
 I am deeply interested in the interplay between **technology and art** &mdash; in particular, how interactive multimodal systems, generative models, and physics simulation can push the boundaries of motion and digital storytelling.
-</p>
+{: style="text-align: justify;" }
 
-<p style="text-align: justify;">
 You can learn more about my past research in my [Publications](/publications/) or on my [Google Scholar profile](https://scholar.google.com/citations?user=jKRp_wYAAAAJ).
-</p>
-
-<p style="text-align: justify;">
-Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects <a href="/game-dev/">here</a>.
-</p>
+{: style="text-align: justify;" }
 
 Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects [here](/game-dev/).
 {: style="text-align: justify;" }
 
-<div class="fidget-container" style="text-align: center; margin-top: 2rem;">
+<div class="fidget-container" style="text-align: justify; margin-top: 2rem;">
   <img id="fidget-toy" 
        src="/assets/img/fidget.png" 
        style="width: 60px; height: 60px; cursor: pointer; transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); user-select: none;"
@@ -85,7 +77,7 @@ Beyond academic research, I am also an (amateur) indie game designer. You can fi
 
     // 3. Create the Sparkle
     const sparkle = document.createElement('div');
-    sparkle.innerHTML = '✨';
+    sparkle.innerHTML = '🫧';
     sparkle.style.position = 'absolute';
     sparkle.style.pointerEvents = 'none';
     sparkle.style.zIndex = '999';
