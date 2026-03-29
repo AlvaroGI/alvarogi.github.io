@@ -45,24 +45,19 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-bring-me-a-star",
+      },{id: "projects-bring-me-a-star",
           title: 'Bring Me a Star',
           description: "An unexpected space expedition...",
           section: "Projects",handler: () => {
               window.location.href = "/projects/game-bring-me-a-star/";
             },},{id: "projects-medieval-mayhem",
           title: 'Medieval Mayhem',
-          description: "Nothing can go wrong... they said.",
+          description: "Nothing can go wrong...",
           section: "Projects",handler: () => {
               window.location.href = "/projects/game-medieval-mayhem/";
             },},{id: "projects-nadia-on-the-line",
           title: 'Nadia on the Line',
-          description: "Use your looping powers to clear the path!",
+          description: "Use your powers to clear the path!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/game-nadia-on-the-line/";
             },},{id: "projects-pawerpoint",
@@ -72,7 +67,7 @@ ninja.data = [{
               window.location.href = "/projects/game-pawer-point/";
             },},{id: "projects-tadpole-tunes",
           title: 'Tadpole Tunes',
-          description: "Play the right tunes to metamorphose them!",
+          description: "Play the right tunes to trigger their metamorphoses!",
           section: "Projects",handler: () => {
               window.location.href = "/projects/game-tadpole-tunes/";
             },},{id: "teachings-data-science-fundamentals",
