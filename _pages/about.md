@@ -47,10 +47,13 @@ Before joining Disney, I earned my **PhD in Computer Science** at TU Delft (Neth
 I am deeply interested in the interplay between **technology and art** &mdash; in particular, how interactive multimodal systems, generative models, and physics simulation can push the boundaries of motion and digital storytelling.
 {: style="text-align: justify;" }
 
-You can learn more about my past research in my [Publications](/publications/) or on my [Google Scholar profile](https://scholar.google.com/citations?user=jKRp_wYAAAAJ).
+You can learn more about my past research in [Publications](/publications/) or on my [Google Scholar profile](https://scholar.google.com/citations?user=jKRp_wYAAAAJ).
 {: style="text-align: justify;" }
 
-<div class="fidget-container" style="text-align: center; margin-top: 2rem;">
+Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects [here](/game-dev/).
+{: style="text-align: justify;" }
+
+<div class="fidget-container" style="text-align: justify; margin-top: 2rem;">
   <img id="fidget-toy" 
        src="/assets/img/fidget.png" 
        style="width: 60px; height: 60px; cursor: pointer; transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); user-select: none;"
@@ -58,8 +61,7 @@ You can learn more about my past research in my [Publications](/publications/) o
        title="Give me a spin!">
 </div>
 
-Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects [here](/game-dev/).
-{: style="text-align: justify;" }
+<div style="margin-bottom: 3rem;"></div>
 
 <script>
   let rotation = 0;
