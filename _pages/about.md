@@ -46,3 +46,53 @@ You can learn more about my past research in my [Publications](/publications/) o
 
 Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects [here](/game-dev/).
 </p>
+
+<div class="fidget-container" style="text-align: center; margin-top: 2rem;">
+  <img id="fidget-toy" 
+       src="/assets/img/game-bring-me-a-star.png" 
+       style="width: 60px; height: 60px; cursor: pointer; transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); user-select: none;"
+       alt="Fidget Toy"
+       title="Give me a spin!">
+</div>
+
+<script>
+  let rotation = 0;
+  const toy = document.getElementById('fidget-toy');
+
+  toy.addEventListener('click', (e) => {
+    // 1. Rotate 90 degrees and pop the scale
+    rotation += 90;
+    toy.style.transform = `rotate(${rotation}deg) scale(1.2)`;
+    
+    // 2. Bounce back to normal size
+    setTimeout(() => {
+      toy.style.transform = `rotate(${rotation}deg) scale(1)`;
+    }, 150);
+
+    // 3. Create the Sparkle
+    const sparkle = document.createElement('div');
+    sparkle.innerHTML = '✨';
+    sparkle.style.position = 'absolute';
+    sparkle.style.pointerEvents = 'none';
+    sparkle.style.zIndex = '999';
+    sparkle.style.transition = 'all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1)';
+    
+    // Get exact coordinates even if the user has scrolled
+    const rect = toy.getBoundingClientRect();
+    const x = rect.left + window.scrollX + (Math.random() * rect.width);
+    const y = rect.top + window.scrollY + (Math.random() * rect.height);
+    
+    sparkle.style.left = `${x}px`;
+    sparkle.style.top = `${y}px`;
+    document.body.appendChild(sparkle);
+
+    // 4. Animate the Sparkle (Float up and fade out)
+    requestAnimationFrame(() => {
+      sparkle.style.transform = `translateY(-30px) scale(${Math.random() + 0.5})`;
+      sparkle.style.opacity = '0';
+    });
+
+    // 5. Clean up the DOM
+    setTimeout(() => sparkle.remove(), 600);
+  });
+</script>
