@@ -25,7 +25,9 @@ social: true # Keep this true to show your email/LinkedIn/GitHub icons at the bo
   const hours = now.getHours();
   let greeting;
 
-  if (hours < 12) {
+  if (hours < 2) {
+    greeting = "Good evening!";
+  } else if (hours < 12) {
     greeting = "Good morning!";
   } else if (hours < 18) {
     greeting = "Good afternoon!";
