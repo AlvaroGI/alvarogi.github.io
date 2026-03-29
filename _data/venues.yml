@@ -1,9 +1,20 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"PRA":
+  color: "#00369f" # A nice deep Physics Review blue
 
-"PhysRev":
-  url: https://journals.aps.org/
+"IEEE QCE":
+  color: "#00369f" # A nice deep Physics Review blue
 
-"Vision":
-  color: "#009f36"
+"ApJ":
+  color: "#00369f" # A nice deep Physics Review blue
+
+"arXiv":
+  color: "#b31b1b" # The classic Cornell/arXiv red
+
+"npj QI":
+  color: "#0072c6" # A vibrant Nature Partner Journal blue
+
+"SIGGRAPH":
+  color: "#f26522" # A punchy orange for graphics
+
+"PhD Thesis":
+  color: "#D4AF37" # A metallic gold
