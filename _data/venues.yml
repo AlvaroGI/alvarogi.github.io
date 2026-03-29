@@ -7,14 +7,17 @@
 "ApJ":
   color: "#00369f" # A nice deep Physics Review blue
 
-"arXiv":
-  color: "#b31b1b" # The classic Cornell/arXiv red
+"Quantum":
+  color: "#00369f" # A nice deep Physics Review blue
 
 "npj QI":
-  color: "#0072c6" # A vibrant Nature Partner Journal blue
+  color: "#00369f" # A nice deep Physics Review blue
+
+"arXiv":
+  color: "#b31b1b" # The classic Cornell/arXiv red
 
 "SIGGRAPH":
   color: "#f26522" # A punchy orange for graphics
 
 "PhD Thesis":
-  color: "#D4AF37" # A metallic gold
+  color: "#b0a310" # A metallic gold

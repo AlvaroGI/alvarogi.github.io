@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Medieval Mayhem
-description: Nothing can go wrong... they said.
+description: Nothing can go wrong...
 img: assets/img/game-medieval-mayhem.png # Upload your screenshot here!
 importance: 4
 category: game dev

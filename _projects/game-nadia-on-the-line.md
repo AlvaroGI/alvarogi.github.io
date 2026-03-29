@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nadia on the Line
-description: Use your looping powers to clear the path!
+description: Use your powers to clear the path!
 img: assets/img/game-nadia.png # Upload a square screenshot of your game to the assets/img folder and put the name here
 importance: 2
 category: game dev

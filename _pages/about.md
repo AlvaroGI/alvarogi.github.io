@@ -18,7 +18,7 @@ selected_papers: true # Set to false if you don't have research papers to show y
 social: true # Keep this true to show your email/LinkedIn/GitHub icons at the bottom
 ---
 
-<h2 id="greeting">Hello!</h2>
+<div id="greeting" style="font-size: 1rem; margin-bottom: 0.75rem;">Hello!</div>
 
 <script>
   const now = new Date();
@@ -41,12 +41,10 @@ social: true # Keep this true to show your email/LinkedIn/GitHub icons at the bo
 I'm Álvaro, a researcher and developer specializing in Computer Graphics. Currently, you can find me at **DisneyResearch\|Studios**, where I work on machine learning for 3D animation.
 {: style="text-align: justify;" }
 
-Before joining Disney, I earned my **PhD in Computer Science** at TU Delft (Netherlands), following a background in Physics and Engineering from MIT (USA) and UPC (Spain).
-{: style="text-align: justify;" }
-
 I am deeply interested in the interplay between **technology and art** &mdash; in particular, how interactive multimodal systems, generative models, and physics simulation can push the boundaries of motion and digital storytelling.
 {: style="text-align: justify;" }
 
+Before joining Disney, I earned my **PhD in Computer Science** at TU Delft (Netherlands), following a background in Physics and Engineering from MIT (USA) and UPC (Spain).
 You can learn more about my past research in [Publications](/publications/) or on my [Google Scholar profile](https://scholar.google.com/citations?user=jKRp_wYAAAAJ).
 {: style="text-align: justify;" }
 
@@ -68,8 +66,11 @@ Beyond academic research, I am also an (amateur) indie game designer. You can fi
   const toy = document.getElementById('fidget-toy');
 
   toy.addEventListener('click', (e) => {
-    // 1. Rotate 90 degrees and pop the scale
-    rotation += 100;
+    // 1. Calculate a random spin (between 90 and 360 degrees)
+    const randomSpin = Math.floor(Math.random() * 270) + 90;
+    rotation += randomSpin;
+    
+    // Pop the scale while applying the new random rotation
     toy.style.transform = `rotate(${rotation}deg) scale(1.2)`;
     
     // 2. Bounce back to normal size

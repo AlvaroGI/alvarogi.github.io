@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tadpole Tunes
-description: Play the right tunes to metamorphose them!
+description: Play the right tunes to trigger their metamorphoses!
 img: assets/img/game-tadpole-tunes.png # Don't forget to upload your thumbnail!
 importance: 5
 category: game dev
