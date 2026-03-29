@@ -75,7 +75,7 @@ Beyond academic research, I am also an (amateur) indie game designer. You can fi
 
   toy.addEventListener('click', (e) => {
     // 1. Rotate 90 degrees and pop the scale
-    rotation += 190;
+    rotation += 100;
     toy.style.transform = `rotate(${rotation}deg) scale(1.2)`;
     
     // 2. Bounce back to normal size
