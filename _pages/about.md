@@ -39,15 +39,15 @@ social: true # Keep this true to show your email/LinkedIn/GitHub icons at the bo
 </script>
 
 <p style="text-align: justify;">
-I'm Álvaro, a researcher and developer specializing in Computer Graphics. Currently, you can find me at DisneyResearch\|Studios, where I work on machine learning for 3D animation.
+I'm Álvaro, a researcher and developer specializing in Computer Graphics. Currently, you can find me at **DisneyResearch\|Studios**, where I work on machine learning for 3D animation.
 </p>
 
 <p style="text-align: justify;">
-Before joining Disney, I earned my PhD in Computer Science at TU Delft (Netherlands), following a background in Physics and Engineering from MIT (USA) and UPC (Spain).
+Before joining Disney, I earned my **PhD in Computer Science** at TU Delft (Netherlands), following a background in Physics and Engineering from MIT (USA) and UPC (Spain).
 </p>
 
 <p style="text-align: justify;">
-I am deeply interested in the interplay between technology and art &mdash; in particular, how interactive multimodal systems, generative models, and physics simulation can push the boundaries of motion and digital storytelling.
+I am deeply interested in the interplay between **technology and art** &mdash; in particular, how interactive multimodal systems, generative models, and physics simulation can push the boundaries of motion and digital storytelling.
 </p>
 
 <p style="text-align: justify;">
@@ -73,7 +73,7 @@ Beyond academic research, I am also an (amateur) indie game designer. You can fi
 
   toy.addEventListener('click', (e) => {
     // 1. Rotate 90 degrees and pop the scale
-    rotation += 90;
+    rotation += 190;
     toy.style.transform = `rotate(${rotation}deg) scale(1.2)`;
     
     // 2. Bounce back to normal size
