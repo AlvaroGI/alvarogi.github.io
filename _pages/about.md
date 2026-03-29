@@ -55,9 +55,11 @@ You can learn more about my past research in my [Publications](/publications/) o
 </p>
 
 <p style="text-align: justify;">
-Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects [here](/game-dev/).
+Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects <a href="/game-dev/">here</a>.
 </p>
 
+Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects [here](/game-dev/).
+{: style="text-align: justify;" }
 
 <div class="fidget-container" style="text-align: center; margin-top: 2rem;">
   <img id="fidget-toy" 
