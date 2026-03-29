@@ -50,16 +50,16 @@ I am deeply interested in the interplay between **technology and art** &mdash; i
 You can learn more about my past research in my [Publications](/publications/) or on my [Google Scholar profile](https://scholar.google.com/citations?user=jKRp_wYAAAAJ).
 {: style="text-align: justify;" }
 
-Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects [here](/game-dev/).
-{: style="text-align: justify;" }
-
-<div class="fidget-container" style="text-align: justify; margin-top: 2rem;">
+<div class="fidget-container" style="text-align: center; margin-top: 2rem;">
   <img id="fidget-toy" 
        src="/assets/img/fidget.png" 
        style="width: 60px; height: 60px; cursor: pointer; transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); user-select: none;"
        alt="Fidget Toy"
        title="Give me a spin!">
 </div>
+
+Beyond academic research, I am also an (amateur) indie game designer. You can find my latest projects [here](/game-dev/).
+{: style="text-align: justify;" }
 
 <script>
   let rotation = 0;
